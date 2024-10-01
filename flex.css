@@ -29,15 +29,19 @@
   border:10px solid goldenrod;
   display: flex;
   flex-direction: row;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   height: 100vh;
-  padding: 1%;
+  padding: 10px;
   justify-content: space-between;
-
+  max-width: 1008px;
+  margin: 0 auto;
+  max-height: 1050px;
+  min-width: 756px;
+  min-height: 787.5px;
 }
 
 [class^="box"] {
-
+  align-content: center;
 }
 
 .box1 {
@@ -80,10 +84,3 @@
   width: 32.66%;
   height: 14%
 } 
-/* 35%
-25%
-=60%
-20%
-=80%
-20%
-=100% */
